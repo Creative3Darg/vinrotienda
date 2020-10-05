@@ -18,8 +18,8 @@ a {
 }
 
 .contenedor {
-	width: 90%;
-	max-width: 1024px;
+	width: 100%;
+	max-width: 1720px;
 	margin: auto;
 }
 
@@ -35,9 +35,9 @@ a {
  
 .logotipo  {text-align: center;
            border-radius: 100%;
-    
             right: 825px;
             bottom: 700px;
+            box-shadow: 0px 0px 40px 0px white;
         
 }
 
@@ -190,11 +190,16 @@ header .categorias a.activo {
 /* Footer */
 /* ------------------------- */
 footer .redes-sociales {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	padding: 20px;
-	flex-wrap: wrap;
+	
+    position: fixed;
+    bottom: 0;
+    margin-left:auto;
+    margin-top: 50px;
+    width: 200px;
+    
+    margin-left:  ;
+    margin-top: ;
+	
 }
 
 footer .redes-sociales a {
@@ -234,7 +239,11 @@ footer .contenedor-icono:hover a {
 }
 
 footer .creado-por {
-	margin-bottom: 40px;
+	margin-bottom: 7px;
+    position: fixed;
+    margin-left: 20%;
+    margin-right: 10%;
+    bottom: 0;
 	text-align: center;
 	font-size: 14px;
 	color: #c13584;
@@ -254,4 +263,39 @@ footer .creado-por a:hover {text-decoration: underline;}
 	header .barra-busqueda {
 		width: 100%;
 	}
+    
+    footer .redes-sociales {
+	
+    position: fixed;
+    bottom: 0;
+    margin-left:auto;
+    margin-top: 50px;
+    width: 200px;
+    
+    margin-left:  ;
+        margin-top: ; }
+    
 }
+
+@media screen and (max-width: 500px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+    
+    footer .creado-por {
+	margin-bottom: 20px;
+    position: fixed;
+    margin-left: 20%;
+    margin-right: 10%;
+    bottom: 0;
+	text-align: center;
+	font-size: 14px;
+	color: #c13584;
+}
+
+	header .barra-busqueda {
+		width: 100%;
+	}
+}
+
+
