@@ -41,6 +41,18 @@ a {
         
 }
 
+.logo {
+    color:#6400ba;
+    
+    
+}
+
+header .logo h3{
+    color: aliceblue;
+    text-shadow: 0px 5px 7px #6400ba;
+    
+}
+
 
 /* ------------------------- */
 /* HEADER */
@@ -208,7 +220,7 @@ footer .redes-sociales a {
 	height: 60px;
 	background: #000;
 	color: #fff;
-	margin: 20px;
+	margin: 20px 20px 25px 10px;
 	text-align: center;
 	border-radius: 100px;
 	transition: .3s ease all;
@@ -239,17 +251,18 @@ footer .contenedor-icono:hover a {
 }
 
 footer .creado-por {
-	margin-bottom: 7px;
-    position: fixed;
-    margin-left: 20%;
-    margin-right: 10%;
-    bottom: 0;
+	
+    padding: 10px 2px 2px px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 	color: #c13584;
+    background: black;
+    
 }
 
-footer .creado-por a {color: #000;}
+footer .creado-por a {color: #fff;}
 footer .creado-por a:hover {text-decoration: underline;}
 
 /* ------------------------- */
@@ -283,19 +296,39 @@ footer .creado-por a:hover {text-decoration: underline;}
 	}
     
     footer .creado-por {
-	margin-bottom: 20px;
-    position: fixed;
-    margin-left: 20%;
-    margin-right: 10%;
-    bottom: 0;
+	
+    padding: 10px 2px 2px px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 15px;
 	color: #c13584;
+    background: black;
+    
 }
 
 	header .barra-busqueda {
 		width: 100%;
 	}
+    
+    footer .redes-sociales a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: #000;
+	color: #fff;
+	margin: 20px 20px 25px 10px;
+	text-align: center;
+	border-radius: 100px;
+	transition: .3s ease all;
+}
+    
+    footer .redes-sociales a i {
+	font-size: 20px;
+	line-height: 45px;
+}
+    
+    
 }
 
 
